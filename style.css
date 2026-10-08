@@ -173,3 +173,11 @@ footer.bottom .wrap { display: flex; flex-wrap: wrap; justify-content: space-bet
 .formats p { margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.5; }
 @media (max-width: 860px) { .formats { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .formats { grid-template-columns: 1fr; } }
+
+/* shorts */
+.shorts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 20px; }
+.shorts figure { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px; box-shadow: var(--shadow); }
+.shorts iframe { display: block; width: 100%; aspect-ratio: 9 / 16; border: 0; border-radius: 10px; background: #000; }
+.shorts figcaption { padding: 10px 4px 2px; color: var(--muted); font-size: .88rem; }
+.shorts figcaption b { color: var(--fg); }
+@media (max-width: 720px) { .shorts { grid-template-columns: 1fr 1fr; } .shorts figure:last-child { display: none; } }
