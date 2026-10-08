@@ -181,3 +181,5 @@ footer.bottom .wrap { display: flex; flex-wrap: wrap; justify-content: space-bet
 .shorts figcaption { padding: 10px 4px 2px; color: var(--muted); font-size: .88rem; }
 .shorts figcaption b { color: var(--fg); }
 @media (max-width: 720px) { .shorts { grid-template-columns: 1fr 1fr; } .shorts figure:last-child { display: none; } }
+
+.stats.chan { margin: 20px 0 0; }
