@@ -65,11 +65,11 @@ nav.links a:hover { color: var(--fg); text-decoration: none; }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 .btn.primary:hover { filter: brightness(1.06); }
 
-.facts { position: relative; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; margin-top: 56px; }
+.facts { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; margin-top: 56px; }
 .facts div { background: var(--card); padding: 18px 20px; }
 .facts strong { display: block; font-size: 1.5rem; letter-spacing: -.02em; }
 .facts span { color: var(--muted); font-size: .88rem; }
-@media (max-width: 720px) { .facts { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 720px) { .facts div { padding: 14px 12px; } }
 
 /* sections */
 section.block { padding: 88px 0; border-top: 1px solid var(--line); }
